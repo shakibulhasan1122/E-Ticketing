@@ -1,0 +1,16 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+<h1 style="font-size: 50px;font-family: Impact;">Welcome to Bus Reservation System</h1>
+<br>
+<h2 style="font-family: Cambria;font-weight: bold;">Start Finding Bus</h2><br><br><br><br>
+<div class="pull-right">
+    
+    <a href="{% url 'findbus' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Find Bus</a>
+    <a href="{% url 'seebookings' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">See Booking</a>
+
+</div>
+</div>
+
+{% endblock %}

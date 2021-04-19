@@ -1,0 +1,12 @@
+body {
+    background: url(../static/bus2.jpg); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+.bton:hover{
+    background-color: rgb(82, 223, 82);
+    color:black;
+}
+ 
